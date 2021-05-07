@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.lzackx.zemplates.resources</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.lzackx.zemplates.info</string>
+	</array>
+	<key>Options</key>
+	<array/>
+	<key>Nodes</key>
+	<array>
+		<string>Resources/Assets.xcassets</string>
+		<string>Resources/LaunchScreen.storyboard</string>
+		<string>Resources/Main.storyboard</string>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>Resources/Assets.xcassets</key>
+		<dict>
+			<key>Group</key>
+			<string>Resources</string>
+			<key>Path</key>
+			<string>Resources/Assets.xcassets</string>
+			<key>AssetGeneration</key>
+			<array>
+				<dict>
+					<key>Type</key>
+					<string>appicon</string>
+					<key>Name</key>
+					<string>AppIcon</string>
+					<key>Platforms</key>
+					<dict>
+						<key>iOS</key>
+						<string>true</string>
+					</dict>
+				</dict>
+			</array>
+			<key>SortOrder</key>
+			<integer>100</integer>
+		</dict>
+		<key>Resources/LaunchScreen.storyboard</key>
+		<dict>
+			<key>Group</key>
+			<string>Resources</string>
+			<key>Path</key>
+			<string>Resources/LaunchScreen.storyboard</string>
+			<key>SortOrder</key>
+			<integer>101</integer>
+		</dict>
+		<key>Resources/Main.storyboard</key>
+		<dict>
+			<key>Path</key>
+			<string>Resources/Main.storyboard</string>
+			<key>Group</key>
+			<string>Resources</string>
+			<key>SortOrder</key>
+			<integer>98</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>
