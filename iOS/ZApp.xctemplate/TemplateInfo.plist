@@ -5,12 +5,13 @@
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
-	<string>com.lzackx.zemplates.singleViewApplication</string>
+	<string>com.lzackx.zemplates.zapp</string>
 	<key>Ancestors</key>
 	<array>
 		<string>com.lzackx.zemplates.info</string>
 		<string>com.lzackx.zemplates.resources</string>
 		<string>com.lzackx.zemplates.sources</string>
+		<string>com.lzackx.zemplates.cocoapods</string>
 	</array>
 	<key>Concrete</key>
 	<true/>
