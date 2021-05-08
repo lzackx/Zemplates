@@ -6,8 +6,6 @@
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
 	<string>com.lzackx.zemplates.cocoapods</string>
-	<key>Definitions</key>
-	<dict/>
 	<key>Options</key>
 	<array>
 		<dict>
