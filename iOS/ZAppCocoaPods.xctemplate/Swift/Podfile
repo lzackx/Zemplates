@@ -5,13 +5,26 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'ZApp' do
+	pod 'SnapKit'
+	pod 'Aspects'
+	pod 'DoraemonKit'
+	pod 'YYKit'
+	pod 'lottie-ios'
+	pod 'FMDB'
+	pod 'ZKit'
 	
 end
 
 # use builtin static framework for reducing launch druation
 # ============================ Pre install =====================================
 static_frameworks = [
-
+	'SnapKit',
+	'Aspects',
+	'DoraemonKit',
+	'YYKit',
+	'lottie-ios',
+	'FMDB',
+	'ZKit',
 ]
 
 pre_install do |installer|
