@@ -24,12 +24,6 @@
 	<array>
 		<dict>
 			<key>Identifier</key>
-			<string>com.lzackx.zemplates.cocoapods</string>
-			<key>Name</key>
-			<string>CocoaPods</string>
-		</dict>
-		<dict>
-			<key>Identifier</key>
 			<string>com.lzackx.zemplates.construction</string>
 			<key>Name</key>
 			<string>Construction</string>
@@ -52,6 +46,35 @@
 			<string>Storyboard</string>
 			<key>Type</key>
 			<string>popup</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>hasCocoaPods</string>
+			<key>Name</key>
+			<string>Include Podfile</string>
+			<key>NotPersisted</key>
+			<false/>
+			<key>SortOrder</key>
+			<integer>1000</integer>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>true</string>
+			<key>Units</key>
+			<dict>
+				<key>true</key>
+				<dict>
+					<key>Components</key>
+					<array>
+						<dict>
+							<key>Identifier</key>
+							<string>com.lzackx.zemplates.cocoapods</string>
+							<key>Name</key>
+							<string>CocoaPods</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
 		</dict>
 	</array>
 </dict>
