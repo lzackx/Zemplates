@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.lzackx.zemplates.construction</string>
+	<key>Nodes</key>
+	<array>
+		<string>ExportOptions/</string>
+		<string>Scripts/</string>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>ExportOptions/</key>
+		<dict>
+			<key>Path</key>
+			<string>ExportOptions/</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Scripts/</key>
+		<dict>
+			<key>Path</key>
+			<string>Scripts/</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -28,6 +28,12 @@
 			<key>Name</key>
 			<string>CocoaPods</string>
 		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>com.lzackx.zemplates.construction</string>
+			<key>Name</key>
+			<string>Construction</string>
+		</dict>
 	</array>
 	<key>Options</key>
 	<array>
