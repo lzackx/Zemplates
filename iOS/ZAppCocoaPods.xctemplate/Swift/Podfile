@@ -5,58 +5,18 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'ZApp' do
+	
+	pod 'DoraemonKit/Core', :configurations =>['Debug']
+	pod 'DoraemonKit/WithGPS', :configurations => ['Debug']
+	pod 'DoraemonKit/WithLoad', :configurations => ['Debug']
+	pod 'DoraemonKit/WithLogger', :configurations =>['Debug']
+	pod 'DoraemonKit/WithDatabase', :configurations => ['Debug']
+#	pod 'DoraemonKit/WithMLeaksFinder', :configurations =>['Debug']
+	
 	pod 'SnapKit'
 	pod 'Aspects'
-	pod 'DoraemonKit'
 	pod 'YYKit'
 	pod 'lottie-ios'
 	pod 'FMDB'
 	pod 'ZKit'
-	
-end
-
-# use builtin static framework for reducing launch druation
-# ============================ Pre install =====================================
-static_frameworks = [
-	'SnapKit',
-	'Aspects',
-	'DoraemonKit',
-	'YYKit',
-	'lottie-ios',
-	'FMDB',
-	'ZKit',
-]
-
-pre_install do |installer|
-	installer.pod_targets.each do |pod|
-		
-		# === https://github.com/CocoaPods/CocoaPods/issues/3289 =======================
-		Pod::Installer::Xcode::TargetValidator.send(:define_method, :verify_no_static_framework_transitive_dependencies) {}
-		
-		# ==============================================================================
-		# make all the other frameworks into static frameworks by overriding the static_framework? function to return true
-		if static_frameworks.include?(pod.name)
-			#		 puts "Overriding the static_framework? method for #{pod.name}"
-			def pod.build_type;
-			Pod::BuildType.static_framework
-		end
-	end
-	# ==============================================================================
-end
-end
-
-# =========================== Post install =====================================
-post_install do |installer|
-	
-	installer.pods_project.targets.each do |target|
-		# =========================== only for Flutter =================================
-		#    # Aggregate targets do not have a headers build phase.
-		#    if target.respond_to?('headers_build_phase')
-		#      target.headers_build_phase.files.each do |file|
-		#        # Make headers public so they can be imported by the host application.
-		#        file.settings = { 'ATTRIBUTES' => ['Public'] }
-		#      end
-		#    end
-		# ==============================================================================
-	end
 end

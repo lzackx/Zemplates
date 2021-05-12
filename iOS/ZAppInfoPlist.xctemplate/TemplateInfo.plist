@@ -92,8 +92,6 @@
 		<string>Info.plist:UISupportedInterfaceOrientations~iPad</string>
 		<string>Info.plist:UIApplicationSupportsIndirectInputEvents</string>
 		<string>Info.plist:UIMainStoryboardFile</string>
-		<string>Info.plist:UIApplicationSceneManifest</string>
-		<string>Info.plist:UIApplicationSceneManifest:UISceneStoryboardFile</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
@@ -137,39 +135,6 @@
 		<string>&lt;key&gt;UIMainStoryboardFile&lt;/key&gt;
                             &lt;string&gt;Main&lt;/string&gt;
                         </string>
-		<key>Info.plist:UIApplicationSceneManifest</key>
-		<dict>
-			<key>Beginning</key>
-			<string>
-            &lt;key&gt;UIApplicationSceneManifest&lt;/key&gt;
-            &lt;dict&gt;
-                &lt;key&gt;UIApplicationSupportsMultipleScenes&lt;/key&gt;
-                &lt;false/&gt;
-                &lt;key&gt;UISceneConfigurations&lt;/key&gt;
-                &lt;dict&gt;
-                    &lt;key&gt;UIWindowSceneSessionRoleApplication&lt;/key&gt;
-                    &lt;array&gt;
-                        &lt;dict&gt;
-                            &lt;key&gt;UISceneConfigurationName&lt;/key&gt;
-                            &lt;string&gt;Default Configuration&lt;/string&gt;
-                            &lt;key&gt;UISceneDelegateClassName&lt;/key&gt;
-                            &lt;string&gt;___VARIABLE_moduleNamePrefixForClasses:XML___SceneDelegate&lt;/string&gt;
-</string>
-			<key>End</key>
-			<string>
-                        &lt;/dict&gt;
-                    &lt;/array&gt;
-                &lt;/dict&gt;
-            &lt;/dict&gt;
-</string>
-			<key>Indent</key>
-			<integer>2</integer>
-		</dict>
-		<key>Info.plist:UIApplicationSceneManifest:UISceneStoryboardFile</key>
-		<string>
-&lt;key&gt;UISceneStoryboardFile&lt;/key&gt;
-&lt;string&gt;Main&lt;/string&gt;
-</string>
 	</dict>
 </dict>
 </plist>
