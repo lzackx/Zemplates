@@ -18,5 +18,24 @@ target 'ZApp' do
 	pod 'YYKit'
 	pod 'lottie-ios'
 	pod 'FMDB'
-	pod 'ZKit'
+	pod 'ZKit', :subspecs=>[
+	'core',
+	'string',
+	'ui',
+	'info',
+	'request',
+	'router',
+	'tabbar',
+	'navigationbar',
+	'popup',
+	'optimize',
+	'webview',
+	'flutter',
+	'notification',
+	'advertisement',
+	'payment',
+	'location',
+	'media',
+	'att',
+	]
 end

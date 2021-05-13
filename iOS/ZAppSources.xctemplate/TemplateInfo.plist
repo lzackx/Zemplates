@@ -17,6 +17,8 @@
 		<dict>
 			<key>Identifier</key>
 			<string>languageChoice</string>
+			<key>default</key>
+			<string>Swift</string>
 			<key>RequiredOptions</key>
 			<dict>
 				<key>appLifecycle</key>
@@ -59,6 +61,7 @@
 							<string>Sources/ZAppDelegate/ZAppDelegate+Popup.swift</string>
 							<string>Sources/ZFoundation/ZRequest/ZRequest.swift</string>
 							<string>Sources/ZFoundation/ZRouter/ZRouter.swift</string>
+							<string>Sources/ZFoundation/ZEnvrionment/ZConstants.swift</string>
 							<string>Sources/ZUI/ZNative/ZViewController.swift</string>
 							<string>Sources/ZUI/ZFlutter/ZFlutterViewController.swift</string>
 							<string>Sources/ZUI/ZWebView/ZWebViewController.swift</string>
@@ -196,6 +199,17 @@
 								</array>
 								<key>Path</key>
 								<string>Sources/Swift/ZFoundation/ZRouter/ZRouter.swift</string>
+							</dict>
+							<key>Sources/ZFoundation/ZEnvrionment/ZConstants.swift</key>
+							<dict>
+								<key>Group</key>
+								<array>
+									<string>Sources</string>
+									<string>ZFoundation</string>
+									<string>ZEnvrionment</string>
+								</array>
+								<key>Path</key>
+								<string>Sources/Swift/ZFoundation/ZEnvrionment/ZConstants.swift</string>
 							</dict>
 							<key>Sources/ZUI/ZNative/ZViewController.swift</key>
 							<dict>
