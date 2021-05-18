@@ -47,7 +47,13 @@ class ZRouter: NSObject {
 							  parameters: [String: NSObject] = [
 								kZMediatorParamsKeySwiftTargetModuleName: ZKit.sharedZ().configurationValue(forKey: ZConstants.ProductModuleNameKey) as! NSObject,
 								kZMediatorParamsKeyClassActionCalled: NSNumber(booleanLiteral: false),
-							  ]
+							  ],
+							  willExcute: @escaping ZouterCommandCallback = { command in
+								print("[ZRouter]: willExcute: <\(command.pattern)> => <\(command.taURL)>")
+							  },
+							  didExcute: @escaping ZouterCommandCallback = { command in
+								print("[ZRouter]: didExcute: <\(command.pattern)> => <\(command.taURL)>")
+							  }
 	) {
 		let targetActionURL: String = "\(ZConstants.AppScheme)://ZRouter/\(action)"
 		ZRouterManager.register(withPattern: pattern,
@@ -55,12 +61,9 @@ class ZRouter: NSObject {
 								synchronizly: synchronizly,
 								priority: priority,
 								parameters: parameters,
-								willExcute: { command in
-									print("willExcute: <\(command.pattern)> => <\(command.taURL)>")
-								},
-								didExcute: { command in
-									print("didExcute: <\(command.pattern)> => <\(command.taURL)>")
-								})
+								willExcute: willExcute,
+								didExcute: didExcute
+		)
 	}
 	
 }
