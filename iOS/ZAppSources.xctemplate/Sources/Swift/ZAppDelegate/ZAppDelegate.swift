@@ -17,10 +17,11 @@ class ZAppDelegate: UIResponder, UIApplicationDelegate {
 	// MARK: - Launch
 	func application(_ application: UIApplication, willFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
 		
-		
 		#if DEBUG
-		self.setupDoraemonKit();
+		self.setupDoraemonKit()
 		#endif
+		self.setupEnvrionment()
+		self.setupRouter()
 		
 		return true
 	}

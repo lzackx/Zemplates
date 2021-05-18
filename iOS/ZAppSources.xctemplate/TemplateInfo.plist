@@ -61,6 +61,8 @@
 							<string>Sources/ZAppDelegate/ZAppDelegate+Popup.swift</string>
 							<string>Sources/ZFoundation/ZRequest/ZRequest.swift</string>
 							<string>Sources/ZFoundation/ZRouter/ZRouter.swift</string>
+							<string>Sources/ZFoundation/ZRouter/ZRouter+Registration.swift</string>
+							<string>Sources/ZFoundation/ZRouter/Target_ZRouter.swift</string>
 							<string>Sources/ZFoundation/ZEnvrionment/ZConstants.swift</string>
 							<string>Sources/ZUI/ZNative/ZViewController.swift</string>
 							<string>Sources/ZUI/ZFlutter/ZFlutterViewController.swift</string>
@@ -199,6 +201,28 @@
 								</array>
 								<key>Path</key>
 								<string>Sources/Swift/ZFoundation/ZRouter/ZRouter.swift</string>
+							</dict>
+							<key>Sources/ZFoundation/ZRouter/ZRouter+Registration.swift</key>
+							<dict>
+								<key>Group</key>
+								<array>
+									<string>Sources</string>
+									<string>ZFoundation</string>
+									<string>ZRouter</string>
+								</array>
+								<key>Path</key>
+								<string>Sources/Swift/ZFoundation/ZRouter/ZRouter+Registration.swift</string>
+							</dict>
+							<key>Sources/ZFoundation/ZRouter/Target_ZRouter.swift</key>
+							<dict>
+								<key>Group</key>
+								<array>
+									<string>Sources</string>
+									<string>ZFoundation</string>
+									<string>ZRouter</string>
+								</array>
+								<key>Path</key>
+								<string>Sources/Swift/ZFoundation/ZRouter/Target_ZRouter.swift</string>
 							</dict>
 							<key>Sources/ZFoundation/ZEnvrionment/ZConstants.swift</key>
 							<dict>
