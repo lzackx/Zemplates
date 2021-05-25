@@ -13,12 +13,14 @@ class ZEnvironment: NSObject {
 	// MARK: - Project Methods
 	class func currentEnvironment() -> String {
 		let environment: String = UserDefaults.standard.string(forKey: ZConstants.ApplicationEnvironmentKey) ?? ZConstants.ApplicationEnvironmentRelease
+		debugPrint("[ZEnvironment]: current Environment => <\(environment)>")
 		return environment
 	}
 	
 	class func updateEnvironment(environment: String) {
 		if (environment == ZConstants.ApplicationEnvironmentRelease || environment == ZConstants.ApplicationEnvironmentDevelop) {
 			UserDefaults.standard.setValue(environment, forKey: ZConstants.ApplicationEnvironmentKey)
+			debugPrint("[ZEnvironment]: updated Environment => <\(environment)>")
 		}
 	}	
 }
