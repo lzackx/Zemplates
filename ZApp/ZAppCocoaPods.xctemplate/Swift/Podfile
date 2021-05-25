@@ -15,9 +15,14 @@ target 'ZApp' do
 	
 	pod 'SnapKit'
 	pod 'Aspects'
-	pod 'YYKit'
 	pod 'lottie-ios'
 	pod 'FMDB'
+	pod 'YYModel'
+	pod 'YYCache'
+	pod 'YYKeyboardManager'
+	pod 'YYCategories'
+	pod 'YYText'
+	pod 'YYAsyncLayer'
 	pod 'ZKit', :subspecs=>[
 	'core',
 	'string',
