@@ -9,11 +9,11 @@ import ZKit
 
 extension ZAppDelegate {
 	
-	func setupEnvrionment() {
+	func setupEnvironment() {
 		self.setupProductModuleName()
 	}
 	
-	// MARK: - file private methods
+	// MARK: - File Private Methods
 	fileprivate func setupProductModuleName() {
 		ZKit.sharedZ().setConfigurationValue(Bundle.main.object(forInfoDictionaryKey: "CFBundleName"),
 											 forKey: ZConstants.ProductModuleNameKey)

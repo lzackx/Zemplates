@@ -50,7 +50,7 @@
 						<array>
 							<string>Sources/ZAppDelegate/ZAppDelegate.swift</string>
 							<string>Sources/ZAppDelegate/ZAppDelegate+Development.swift</string>
-							<string>Sources/ZAppDelegate/ZAppDelegate+Envrionment.swift</string>
+							<string>Sources/ZAppDelegate/ZAppDelegate+Environment.swift</string>
 							<string>Sources/ZAppDelegate/ZAppDelegate+Window.swift</string>
 							<string>Sources/ZAppDelegate/ZAppDelegate+Privacy.swift</string>
 							<string>Sources/ZAppDelegate/ZAppDelegate+Request.swift</string>
@@ -60,10 +60,12 @@
 							<string>Sources/ZAppDelegate/ZAppDelegate+Advertisement.swift</string>
 							<string>Sources/ZAppDelegate/ZAppDelegate+Popup.swift</string>
 							<string>Sources/ZFoundation/ZRequest/ZRequest.swift</string>
+							<string>Sources/ZFoundation/ZRequest/ZRequestURL.swift</string>
 							<string>Sources/ZFoundation/ZRouter/ZRouter.swift</string>
 							<string>Sources/ZFoundation/ZRouter/ZRouter+Registration.swift</string>
 							<string>Sources/ZFoundation/ZRouter/Target_ZRouter.swift</string>
 							<string>Sources/ZFoundation/ZEnvrionment/ZConstants.swift</string>
+							<string>Sources/ZFoundation/ZEnvrionment/ZEnvironment.swift</string>
 							<string>Sources/ZUI/ZNative/ZViewController.swift</string>
 							<string>Sources/ZUI/ZFlutter/ZFlutterViewController.swift</string>
 							<string>Sources/ZUI/ZWebView/ZWebViewController.swift</string>
@@ -90,7 +92,7 @@
 								<key>Path</key>
 								<string>Sources/Swift/ZAppDelegate/ZAppDelegate+Development.swift</string>
 							</dict>
-							<key>Sources/ZAppDelegate/ZAppDelegate+Envrionment.swift</key>
+							<key>Sources/ZAppDelegate/ZAppDelegate+Environment.swift</key>
 							<dict>
 								<key>Group</key>
 								<array>
@@ -98,7 +100,7 @@
 									<string>ZAppDelegate</string>
 								</array>
 								<key>Path</key>
-								<string>Sources/Swift/ZAppDelegate/ZAppDelegate+Envrionment.swift</string>
+								<string>Sources/Swift/ZAppDelegate/ZAppDelegate+Environment.swift</string>
 							</dict>
 							<key>Sources/ZAppDelegate/ZAppDelegate+Window.swift</key>
 							<dict>
@@ -191,6 +193,17 @@
 								<key>Path</key>
 								<string>Sources/Swift/ZFoundation/ZRequest/ZRequest.swift</string>
 							</dict>
+							<key>Sources/ZFoundation/ZRequest/ZRequestURL.swift</key>
+							<dict>
+								<key>Group</key>
+								<array>
+									<string>Sources</string>
+									<string>ZFoundation</string>
+									<string>ZRequest</string>
+								</array>
+								<key>Path</key>
+								<string>Sources/Swift/ZFoundation/ZRequest/ZRequestURL.swift</string>
+							</dict>
 							<key>Sources/ZFoundation/ZRouter/ZRouter.swift</key>
 							<dict>
 								<key>Group</key>
@@ -234,6 +247,17 @@
 								</array>
 								<key>Path</key>
 								<string>Sources/Swift/ZFoundation/ZEnvrionment/ZConstants.swift</string>
+							</dict>
+							<key>Sources/ZFoundation/ZEnvrionment/ZEnvironment.swift</key>
+							<dict>
+								<key>Group</key>
+								<array>
+									<string>Sources</string>
+									<string>ZFoundation</string>
+									<string>ZEnvrionment</string>
+								</array>
+								<key>Path</key>
+								<string>Sources/Swift/ZFoundation/ZEnvrionment/ZEnvironment.swift</string>
 							</dict>
 							<key>Sources/ZUI/ZNative/ZViewController.swift</key>
 							<dict>

@@ -20,8 +20,10 @@ class ZAppDelegate: UIResponder, UIApplicationDelegate {
 		#if DEBUG
 		self.setupDoraemonKit()
 		#endif
-		self.setupEnvrionment()
+		self.setupEnvironment()
 		self.setupRouter()
+		self.setupRequest()
+		self.setupWindow()
 		
 		return true
 	}

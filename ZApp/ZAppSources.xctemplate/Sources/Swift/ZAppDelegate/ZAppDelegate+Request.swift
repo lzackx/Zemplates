@@ -5,9 +5,14 @@
 //
 
 import UIKit
+import ZKit
 
 
 extension ZAppDelegate {
+	
+	func setupRequest() {
+		ZRequest.launchCommonRequest()
+	}
 	
 }
 
