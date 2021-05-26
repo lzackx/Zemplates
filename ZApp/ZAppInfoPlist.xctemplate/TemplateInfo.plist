@@ -92,6 +92,9 @@
 		<string>Info.plist:UISupportedInterfaceOrientations~iPad</string>
 		<string>Info.plist:UIApplicationSupportsIndirectInputEvents</string>
 		<string>Info.plist:UIMainStoryboardFile</string>
+		<string>Info.plist:NSAppTransportSecurity</string>
+		<string>Info.plist:UIStatusBarHidden</string>
+		<string>Info.plist:UIViewControllerBasedStatusBarAppearance</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
@@ -110,7 +113,7 @@
 			<integer>1</integer>
 		</dict>
 		<key>Info.plist:UIRequiredDeviceCapabilities:base</key>
-		<string>&lt;string&gt;armv7&lt;/string&gt;</string>
+		<string>&lt;string&gt;armv64&lt;/string&gt;</string>
 		<key>Info.plist:statusBarTintForNavBar</key>
 		<string>&lt;key&gt;UIStatusBarTintParameters&lt;/key&gt;
 &lt;dict&gt;
@@ -135,6 +138,18 @@
 		<string>&lt;key&gt;UIMainStoryboardFile&lt;/key&gt;
                             &lt;string&gt;Main&lt;/string&gt;
                         </string>
+		<key>Info.plist:NSAppTransportSecurity</key>
+		<string>&lt;key&gt;NSAppTransportSecurity&lt;/key&gt;
+	&lt;dict&gt;
+		&lt;key&gt;NSAllowsArbitraryLoads&lt;/key&gt;
+		&lt;true/&gt;
+	&lt;/dict&gt;</string>
+		<key>Info.plist:UIStatusBarHidden</key>
+		<string>&lt;key&gt;UIStatusBarHidden&lt;/key&gt;
+	&lt;true/&gt;</string>
+		<key>Info.plist:UIViewControllerBasedStatusBarAppearance</key>
+		<string>&lt;key&gt;UIViewControllerBasedStatusBarAppearance&lt;/key&gt;
+	&lt;true/&gt;</string>
 	</dict>
 </dict>
 </plist>
