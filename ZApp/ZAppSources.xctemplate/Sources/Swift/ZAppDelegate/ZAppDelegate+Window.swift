@@ -10,12 +10,20 @@ import UIKit
 extension ZAppDelegate {
 	
 	func setupWindow() {
-		self.resetWindow()
+		self.activateMainWindow()
 	}
 	
 	func resetWindow() {
 		self.window = self.createMainWindow()
 		self.window!.makeKeyAndVisible()
+	}
+	
+	func activateMainWindow() {
+		if let mw = self.window {
+			mw.makeKeyAndVisible()
+		} else {
+			self.resetWindow()
+		}
 	}
 	
 	// MARK: - File Private Methods

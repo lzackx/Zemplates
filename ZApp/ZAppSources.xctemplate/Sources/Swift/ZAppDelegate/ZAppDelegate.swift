@@ -24,6 +24,7 @@ class ZAppDelegate: UIResponder, UIApplicationDelegate {
 		self.setupRouter()
 		self.setupRequest()
 		self.setupWindow()
+		self.setupPopup()
 		
 		return true
 	}
