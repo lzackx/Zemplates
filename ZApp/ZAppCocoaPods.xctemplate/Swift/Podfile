@@ -31,18 +31,18 @@ target 'ZApp' do
 	'info',
 	'request',
 	'router',
-	'tabbar',
-	'navigationbar',
 	'popup',
-	'optimize',
 	'webview',
 	'flutter',
+	'tabbar',
+	'navigationbar',
 	'notification',
 	'advertisement',
 	'payment',
 	'location',
 	'media',
-	# 'att',
+#	'att',
+#	'optimize',
 	]
 end
 
