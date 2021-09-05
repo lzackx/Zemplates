@@ -10,15 +10,13 @@
 	<array>
 		<string>com.lzackx.zemplates.info</string>
 	</array>
-	<key>Definitions</key>
-	<dict/>
 	<key>Options</key>
 	<array>
 		<dict>
 			<key>Identifier</key>
 			<string>languageChoice</string>
 			<key>default</key>
-			<string>Swift</string>
+			<string>Objectie-C</string>
 			<key>RequiredOptions</key>
 			<dict>
 				<key>appLifecycle</key>
@@ -30,13 +28,37 @@
 				<array>
 					<dict>
 						<key>Nodes</key>
-						<array/>
+						<array>
+							<string>Sources/main.m</string>
+							<string>Sources/ZAppDelegate.h</string>
+							<string>Sources/ZAppDelegate.m</string>
+						</array>
 						<key>Definitions</key>
 						<dict>
-							<key>Sources/</key>
+							<key>Sources/main.m</key>
 							<dict>
 								<key>Path</key>
-								<string>Sources/Objective-C/</string>
+								<string>Sources/Objective-C/ZAppDelegate/main.m</string>
+								<key>Group</key>
+								<string>Sources</string>
+								<key>TargetIndices</key>
+								<array/>
+							</dict>
+							<key>Sources/ZAppDelegate.h</key>
+							<dict>
+								<key>Path</key>
+								<string>Sources/Objective-C/ZAppDelegate/ZAppDelegate.h</string>
+								<key>Group</key>
+								<string>Sources</string>
+								<key>TargetIndices</key>
+								<array/>
+							</dict>
+							<key>Sources/ZAppDelegate.m</key>
+							<dict>
+								<key>Path</key>
+								<string>Sources/Objective-C/ZAppDelegate/ZAppDelegate.m</string>
+								<key>Group</key>
+								<string>Sources</string>
 								<key>TargetIndices</key>
 								<array/>
 							</dict>
